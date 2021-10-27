@@ -1,0 +1,71 @@
+.notes-header {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.noteupdate span {
+  font-size: 15px;
+  margin-left: 10px;
+  color: #3a3939;
+}
+.noteupdate i {
+  margin-left: 10px;
+  color: #3a3939;
+}
+.button {
+  display: flex;
+  padding: 10px;
+}
+.notebtn {
+  border-radius: 2.5rem;
+  font-weight: 50;
+  font-size: small;
+  padding-right: 20px;
+  background-color: #58995e;
+  color: #fff;
+  border: none;
+}
+.notebtn i {
+  margin-right: 10px;
+  margin-left: 5px;
+  font-size: small;
+}
+.noteupdate {
+  padding: 20px;
+}
+.notes-list {
+  /* background-color: #15812c23; */
+  padding: 12px 15px 10px 28px;
+  border: 1px solid #c7c6c69a;
+}
+.notes-list:hover {
+  background-color: #eee;
+}
+.note-date {
+  color: #adacac;
+  font-size: 11px;
+}
+.note-title {
+  margin: 3px 0px;
+  font-weight: 20;
+  font-size: 16px;
+  color: #202020;
+}
+.note-body {
+  margin: 8px 0px;
+  color: #535353;
+  font-size: 14px;
+  
+}
+.note-tags {
+  display: flex;
+  color: #20a040;
+}
+.tag {
+  background-color: #15812c33;
+  width: fit-content;
+  padding: 3px 4px;
+  font-size: 10px;
+  border-radius: 0.2rem;
+  margin-right: 8px;
+}
